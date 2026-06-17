@@ -259,6 +259,11 @@ em { font-style: italic; }
 .t3 { background: linear-gradient(135deg, #7a4a3a, #b8835f); }
 .t4 { background: linear-gradient(135deg, #4f3d6b, #8c72ad); }
 .t5 { background: linear-gradient(135deg, #876520, #c79f4e); }
+.t-pam {
+  background-image: url('/pam-thumb.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 .proj-body { flex: 1; min-width: 0; }
 .proj-body h4 {
