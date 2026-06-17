@@ -312,6 +312,41 @@ footer {
   text-transform: uppercase;
 }
 
+
+/* === Inline photo (Uses, etc.) === */
+.inline-photo {
+  margin: 1.8em 0 2em;
+  padding: 0;
+}
+.inline-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+.inline-photo figcaption {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  color: var(--text-mute);
+  margin-top: 0.6em;
+  letter-spacing: 0.04em;
+  text-align: center;
+  font-style: normal;
+}
+
+/* === Footer link === */
+footer a {
+  color: var(--text-mute);
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+footer a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
 @media (max-width: 480px) {
   body { padding: 40px 22px 72px; font-size: 17px; }
   .thumb { width: 72px; height: 72px; }
