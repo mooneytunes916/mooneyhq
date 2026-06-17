@@ -264,6 +264,21 @@ em { font-style: italic; }
   background-size: cover;
   background-position: center;
 }
+.t-vc {
+  background-image: url('/visionclaw-thumb.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.t-mviq {
+  background-image: url('/mviq-thumb.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.t-mt {
+  background-image: url('/mooneytunes-thumb.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 .proj-body { flex: 1; min-width: 0; }
 .proj-body h4 {
